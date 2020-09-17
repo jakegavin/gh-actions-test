@@ -1,1 +1,1 @@
-echo "<html><body>Last Build: $(date)</body><html>" >> ./dist/index.html
+echo "<html><body>Last Build: $(date)<br/>My Secret: $SUPER_SECRET</body><html>" > ./dist/index.html
