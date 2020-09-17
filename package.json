@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Testing github actions",
   "dependencies": {
+    "handlebars": "^4.7.6",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {},

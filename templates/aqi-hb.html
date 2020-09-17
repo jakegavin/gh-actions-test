@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h3>Air Quality</h3>
+    <div>Seattle: {{seattle.aqi}}</div>
+    <div>Updated At: {{seattle.updatedAt}}</div>
+    <div>
+      Attributions: {{#each seattle.attributions}}
+      <a href="{{url}}">{{name}}</a>{{#unless @last}},{{/unless}} {{/each}}
+    </div>
+    <br />
+    <div>Corvallis: {{corvallis.aqi}}</div>
+    <div>Updated At: {{corvallis.updatedAt}}</div>
+    <div>
+      Attributions: {{#each corvallis.attributions}}
+      <a href="{{url}}">{{name}}</a>{{#unless @last}},{{/unless}} {{/each}}
+    </div>
+  </body>
+</html>
