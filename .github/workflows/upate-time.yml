@@ -19,4 +19,4 @@ jobs:
       - name: Create local changes
         run: |
           echo "test"
-          ./scripts/update-times.sh
+          ./scripts/update-time.sh
