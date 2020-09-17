@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"	
           git config --local user.name "GitHub Action"	
-          git commit -m "Update Air Quality JSON" -a
+          git commit -m "Update Air Quality JSON" -a || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -45,7 +45,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"	
           git config --local user.name "GitHub Action"	
-          git commit -m "Build Air Quality HTML" -a
+          git commit -m "Build Air Quality HTML" -a || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
