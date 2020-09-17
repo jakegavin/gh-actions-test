@@ -1,1 +1,1 @@
-echo "<html><body>Last Build: $(date)<br/>My Secret: $SUPER_SECRET</body><html>" > ./docs/index.html
+echo "<html><body>Workflow last ran at: $(date)</body><html>" > ./docs/time.html
