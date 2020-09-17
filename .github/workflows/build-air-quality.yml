@@ -25,7 +25,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git commit -m "Update Air Quality JSON" -a || echo "Nothing to update"
-          git push
+          git push origin master
   build:
     needs: fetch-data
     runs-on: ubuntu-latest
@@ -43,4 +43,4 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git commit -m "Build Air Quality HTML" -a || echo "Nothing to update"
-          git push
+          git push origin master
