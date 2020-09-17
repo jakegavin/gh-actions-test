@@ -22,8 +22,8 @@ jobs:
           node ./scripts/fetch-json-data.js
       - name: Commit files
         run: |
-          git config --local user.email "action@github.com"	
-          git config --local user.name "GitHub Action"	
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git commit -m "Update Air Quality JSON" -a || echo "Nothing to update"
           git push
   build:
@@ -40,7 +40,7 @@ jobs:
           node ./scripts/build-html.js
       - name: Commit and push files
         run: |
-          git config --local user.email "action@github.com"	
-          git config --local user.name "GitHub Action"	
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git commit -m "Build Air Quality HTML" -a || echo "Nothing to update"
           git push
