@@ -16,7 +16,7 @@ jobs:
         env: # Or as an environment variable
           SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
-          node --version
+          echo $(node --version)
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"	
