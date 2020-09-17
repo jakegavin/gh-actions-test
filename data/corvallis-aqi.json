@@ -1,17 +1,17 @@
 {
 	"status": "ok",
 	"data": {
-		"aqi": 166,
+		"aqi": 167,
 		"idx": 74,
 		"attributions": [
+			{
+				"url": "http://www.airnow.gov/",
+				"name": "Air Now - US EPA"
+			},
 			{
 				"url": "https://www.oregon.gov/DEQ/",
 				"name": "Oregon Department of Environmental Quality (DEQ)",
 				"logo": "US-Oregon.png"
-			},
-			{
-				"url": "http://www.airnow.gov/",
-				"name": "Air Now - US EPA"
 			},
 			{
 				"url": "https://waqi.info/",
@@ -35,10 +35,10 @@
 				"v": 1015.1
 			},
 			"pm25": {
-				"v": 166
+				"v": 167
 			},
 			"t": {
-				"v": 16.1
+				"v": 16.3
 			},
 			"w": {
 				"v": 0.5
@@ -216,7 +216,7 @@
 			}
 		},
 		"debug": {
-			"sync": "2020-09-18T02:09:14+09:00"
+			"sync": "2020-09-18T02:31:36+09:00"
 		}
 	}
 }
