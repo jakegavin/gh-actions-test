@@ -1,1 +1,1 @@
-date >> time.txt
+echo "<html><body>Last Build: $(date)</body><html>" >> ./dist/index.html
