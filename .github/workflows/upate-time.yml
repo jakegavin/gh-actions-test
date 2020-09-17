@@ -4,6 +4,7 @@ name: Update Time
 
 # Controls when the action will run.
 on:
+  workflow_dispatch:
   schedule:
     - cron: "* * * * *" # every day at midnight
 
