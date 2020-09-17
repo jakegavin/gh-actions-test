@@ -5,5 +5,7 @@
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": "https://github.com/jakegavin/gh-actions-test",
+  "license": "mit"
 }

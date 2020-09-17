@@ -1,13 +1,17 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
 
-fetch("https://swapi.dev/api/people/")
+const waqiToken = process.env.WAQI_TOKEN;
+
+if (!waqiToken) {
+  throw Error("Missing WAQI token.");
+}
+
+fetch(`https://api.waqi.info/feed/seattle/?token=${waqiToken}`)
   .then((response) => response.json())
   .then((data) => {
     const json = JSON.stringify(data, null, "\t");
-    throw Error("test");
-    fs.writeFileSync("./data/swapi.json", json);
-    j;
+    fs.writeFileSync("./data/seattle-aqi.json", json);
   })
   .catch((err) => {
     console.error(err);

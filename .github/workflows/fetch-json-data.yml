@@ -16,7 +16,7 @@ jobs:
         env: # Or as an environment variable
           SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
-          npm install
+          npm ci
           node ./scripts/fetch-json-data.js
       - name: Commit files
         run: |
