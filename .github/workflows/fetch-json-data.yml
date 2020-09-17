@@ -16,7 +16,8 @@ jobs:
         env: # Or as an environment variable
           SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
-          echo $(node --version)
+          npm install
+          node ./scripts/fetch-json-data.js
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"	

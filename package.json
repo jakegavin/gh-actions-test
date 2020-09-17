@@ -1,0 +1,9 @@
+{
+  "name": "gh-actions-test",
+  "version": "1.0.0",
+  "description": "Testing github actions",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {}
+}
