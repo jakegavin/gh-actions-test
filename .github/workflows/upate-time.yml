@@ -21,7 +21,7 @@ jobs:
           super_secret: ${{ secrets.SUPER_SECRET }}
         run: |
           echo "test"
-          SUPER_SECRET=test ./scripts/update-time.sh
+          SUPER_SECRET=$SUPER_SECRET ./scripts/update-time.sh
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"	
