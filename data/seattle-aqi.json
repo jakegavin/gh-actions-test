@@ -1,17 +1,17 @@
 {
 	"status": "ok",
 	"data": {
-		"aqi": 30,
+		"aqi": 9,
 		"idx": 5855,
 		"attributions": [
-			{
-				"url": "http://www.airnow.gov/",
-				"name": "Air Now - US EPA"
-			},
 			{
 				"url": "http://www.ecy.wa.gov/",
 				"name": "Washington State Department of Ecology",
 				"logo": "US-Washignton-State-Department-of-Ecology.png"
+			},
+			{
+				"url": "http://www.airnow.gov/",
+				"name": "Air Now - US EPA"
 			},
 			{
 				"url": "https://waqi.info/",
@@ -29,32 +29,32 @@
 		"dominentpol": "pm25",
 		"iaqi": {
 			"h": {
-				"v": 54.2
+				"v": 47
 			},
 			"no2": {
-				"v": 14.6
+				"v": 13.2
 			},
 			"p": {
-				"v": 1015.2
+				"v": 1014.7
 			},
 			"pm25": {
-				"v": 30
+				"v": 9
 			},
 			"t": {
-				"v": 20.1
+				"v": 21.2
 			},
 			"w": {
 				"v": 2
 			},
 			"wg": {
-				"v": 6.5
+				"v": 7.2
 			}
 		},
 		"time": {
-			"s": "2020-09-22 12:00:00",
+			"s": "2020-09-22 14:00:00",
 			"tz": "-07:00",
-			"v": 1600776000,
-			"iso": "2020-09-22T12:00:00-07:00"
+			"v": 1600783200,
+			"iso": "2020-09-22T14:00:00-07:00"
 		},
 		"forecast": {
 			"daily": {
@@ -148,34 +148,40 @@
 						"min": 48
 					},
 					{
-						"avg": 74,
+						"avg": 72,
 						"day": "2020-09-21",
-						"max": 81,
-						"min": 68
-					},
-					{
-						"avg": 70,
-						"day": "2020-09-22",
 						"max": 85,
-						"min": 52
+						"min": 63
 					},
 					{
-						"avg": 26,
+						"avg": 47,
+						"day": "2020-09-22",
+						"max": 83,
+						"min": 14
+					},
+					{
+						"avg": 27,
 						"day": "2020-09-23",
-						"max": 54,
+						"max": 41,
 						"min": 12
 					},
 					{
-						"avg": 20,
+						"avg": 26,
 						"day": "2020-09-24",
-						"max": 25,
-						"min": 17
+						"max": 36,
+						"min": 20
 					},
 					{
-						"avg": 29,
+						"avg": 21,
 						"day": "2020-09-25",
 						"max": 35,
-						"min": 16
+						"min": 13
+					},
+					{
+						"avg": 30,
+						"day": "2020-09-26",
+						"max": 35,
+						"min": 20
 					}
 				],
 				"uvi": [
@@ -219,7 +225,7 @@
 			}
 		},
 		"debug": {
-			"sync": "2020-09-23T05:58:40+09:00"
+			"sync": "2020-09-23T06:49:17+09:00"
 		}
 	}
 }
