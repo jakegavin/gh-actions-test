@@ -1,17 +1,17 @@
 {
 	"status": "ok",
 	"data": {
-		"aqi": 17,
+		"aqi": 14,
 		"idx": 74,
 		"attributions": [
+			{
+				"url": "http://www.airnow.gov/",
+				"name": "Air Now - US EPA"
+			},
 			{
 				"url": "https://www.oregon.gov/DEQ/",
 				"name": "Oregon Department of Environmental Quality (DEQ)",
 				"logo": "US-Oregon.png"
-			},
-			{
-				"url": "http://www.airnow.gov/",
-				"name": "Air Now - US EPA"
 			},
 			{
 				"url": "https://waqi.info/",
@@ -29,29 +29,29 @@
 		"dominentpol": "pm25",
 		"iaqi": {
 			"h": {
-				"v": 62.3
+				"v": 60
 			},
 			"p": {
-				"v": 1009.3
+				"v": 1008.6
 			},
 			"pm25": {
-				"v": 17
+				"v": 14
 			},
 			"t": {
-				"v": 21.4
+				"v": 22.7
 			},
 			"w": {
-				"v": 2.3
+				"v": 1.6
 			},
 			"wg": {
-				"v": 4
+				"v": 3.3
 			}
 		},
 		"time": {
-			"s": "2020-09-23 12:00:00",
+			"s": "2020-09-23 13:00:00",
 			"tz": "-07:00",
-			"v": 1600862400,
-			"iso": "2020-09-23T12:00:00-07:00"
+			"v": 1600866000,
+			"iso": "2020-09-23T13:00:00-07:00"
 		},
 		"forecast": {
 			"daily": {
@@ -139,40 +139,46 @@
 				],
 				"pm25": [
 					{
-						"avg": 46,
+						"avg": 47,
 						"day": "2020-09-21",
 						"max": 58,
-						"min": 19
+						"min": 25
 					},
 					{
-						"avg": 15,
+						"avg": 25,
 						"day": "2020-09-22",
-						"max": 19,
-						"min": 10
+						"max": 42,
+						"min": 14
 					},
 					{
-						"avg": 28,
+						"avg": 23,
 						"day": "2020-09-23",
-						"max": 54,
+						"max": 53,
 						"min": 9
 					},
 					{
-						"avg": 48,
+						"avg": 47,
 						"day": "2020-09-24",
-						"max": 54,
-						"min": 29
+						"max": 55,
+						"min": 33
 					},
 					{
-						"avg": 42,
+						"avg": 25,
 						"day": "2020-09-25",
-						"max": 49,
+						"max": 45,
 						"min": 11
 					},
 					{
-						"avg": 39,
+						"avg": 20,
 						"day": "2020-09-26",
-						"max": 48,
-						"min": 15
+						"max": 26,
+						"min": 8
+					},
+					{
+						"avg": 21,
+						"day": "2020-09-27",
+						"max": 24,
+						"min": 16
 					}
 				],
 				"uvi": [
@@ -216,7 +222,7 @@
 			}
 		},
 		"debug": {
-			"sync": "2020-09-24T05:31:16+09:00"
+			"sync": "2020-09-24T06:31:04+09:00"
 		}
 	}
 }
