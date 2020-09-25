@@ -5,13 +5,13 @@
 		"idx": 5855,
 		"attributions": [
 			{
-				"url": "http://www.airnow.gov/",
-				"name": "Air Now - US EPA"
-			},
-			{
 				"url": "http://www.ecy.wa.gov/",
 				"name": "Washington State Department of Ecology",
 				"logo": "US-Washignton-State-Department-of-Ecology.png"
+			},
+			{
+				"url": "http://www.airnow.gov/",
+				"name": "Air Now - US EPA"
 			},
 			{
 				"url": "https://waqi.info/",
@@ -29,32 +29,32 @@
 		"dominentpol": "pm25",
 		"iaqi": {
 			"h": {
-				"v": 75
+				"v": 78
 			},
 			"no2": {
-				"v": 15.7
+				"v": 13.8
 			},
 			"p": {
-				"v": 1014
+				"v": 1013.9
 			},
 			"pm25": {
 				"v": 25
 			},
 			"t": {
-				"v": 17.2
+				"v": 16.6
 			},
 			"w": {
-				"v": 2.5
+				"v": 2
 			},
 			"wg": {
-				"v": 11
+				"v": 5
 			}
 		},
 		"time": {
-			"s": "2020-09-24 17:00:00",
+			"s": "2020-09-24 18:00:00",
 			"tz": "-07:00",
-			"v": 1600966800,
-			"iso": "2020-09-24T17:00:00-07:00"
+			"v": 1600970400,
+			"iso": "2020-09-24T18:00:00-07:00"
 		},
 		"forecast": {
 			"daily": {
@@ -231,7 +231,7 @@
 			}
 		},
 		"debug": {
-			"sync": "2020-09-25T09:24:14+09:00"
+			"sync": "2020-09-25T10:15:00+09:00"
 		}
 	}
 }
