@@ -3,8 +3,9 @@ name: Build/Deploy Air Quality
 # Controls when the action will run.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *" # every hour
+  # Uncomment to run every hour.
+  #  schedule:
+  #    - cron: "0 * * * *" # every hour
 
 jobs:
   fetch-data:
